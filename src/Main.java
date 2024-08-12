@@ -67,7 +67,7 @@ public class Main {
     public static List<Match> getMatchesData() {
         List<Match> matches = new ArrayList<>();
 
-        String query = "SELECT * FROM matches"; // Adjust the SQL query to match your table schema
+        String query = "SELECT * FROM matches";
 
         try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
              PreparedStatement preparedStatement = connection.prepareStatement(query);
@@ -106,7 +106,7 @@ public class Main {
 
     private static List<Delivery> getDeliveriesData(){
         List<Delivery> deliveries = new ArrayList<>();
-        String query = "SELECT * FROM deliveries"; // Adjust SQL query as needed
+        String query = "SELECT * FROM deliveries";
 
         try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
              PreparedStatement preparedStatement = connection.prepareStatement(query);
