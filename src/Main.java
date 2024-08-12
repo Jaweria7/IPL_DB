@@ -48,7 +48,7 @@ public class Main {
 
     private static final String URL = "jdbc:postgresql://localhost:5433/postgres";
     private static final String USER = "Jaweria_Jawed";
-    private static final String PASSWORD = "2304";
+    private static final String PASSWORD = "****";
 
     public static void main(String[] args) {
         List<Match> matches = new ArrayList<>();
