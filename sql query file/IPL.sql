@@ -25,7 +25,7 @@ GROUP BY "season"
 ORDER BY "season" ASC;
 
 --2: Number of matches won of all teams over all the years of IPL.
-SELECT winner, COUNT(winner) AS wins
+SELECT winner,git COUNT(winner) AS wins
 FROM matches
 WHERE winner IS NOT NULL
 GROUP BY winner;
